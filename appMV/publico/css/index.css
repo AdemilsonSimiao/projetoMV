@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(5, 36, 116);
+}
+.login-form {
+    max-width: 600px;
+    max-height: 450px;
+    border-radius: 3px;
+    padding: 2rem 5rem 5rem 5rem;
+    margin: 4rem auto 0 auto;
+    background-color: #d1d4d6;
+    box-shadow: 0 0 1em #797d81;
+}
+
+.inputs-login input{
+    margin-top: 0.8rem;
+    background-color: #797d81;
+}
+
+h1 {
+    color: #3b3d3f;
+}
+
+.buttons-login {
+    margin-top: 3rem;
+}
+
+.buttons-login button{
+    width: 100%;
+    margin-top: 0.3rem;
+}
+
+@media(max-width: 600px){
+ 
+    .login-form {
+        max-width: 90vw;
+        max-height: 70vh;
+    }
+}
