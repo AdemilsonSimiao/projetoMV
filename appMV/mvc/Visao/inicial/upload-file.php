@@ -14,7 +14,7 @@
         <input type="file" name="upload-arquivo" id="upload-arquivo" required>
         <div class="buttons-form">
             <button type="submit" class="btn btn-primary">Fazer Upload</button>
-            <a href="<?= URL_RAIZ?>uploads"><button type="button" class="btn btn-secondary">Cancelar Upload</button></a>
+            <a href="<?= URL_RAIZ?>uploads"><button type="button" class="btn btn-light">Cancelar Upload</button></a>
         </div>
     </form>
 </div>

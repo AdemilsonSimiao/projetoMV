@@ -23,9 +23,13 @@ class Topico extends Modelo {
         $this->idUsuario = $idUsuario;
         $this->nomeUsuario = $nomeUsuario;
     }
-
+   
     public function getId() {
         return $this->id;
+    }
+
+    public function getIdUsuario() {
+        return $this->idUsuario;
     }
 
     public function getNomeUsuario() {

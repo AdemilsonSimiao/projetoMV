@@ -1,7 +1,7 @@
 <head>
     <link rel="stylesheet" href="<?= URL_CSS ?>topic-page.css">
 </head>
-<body>  
+<body style="background-color: #0d47a1 ;">  
     <main>
         <div class="main-content">
             <h4><?=$topico->getTitulo()?></h4>

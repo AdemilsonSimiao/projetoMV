@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="<?= URL_CSS ?>navbar.css">
     <title><?=APLICACAO_NOME?></title>
 </head>
-<body>
-    <nav>
+<body >
+    <nav class="bg-primary">
         <img src="<?= URL_IMG ?>cloud-computing-white.png" alt="logo">
         <a href="<?=URL_RAIZ?>uploads"><span>Upload Media</span></a>
         <form action="<?= URL_RAIZ . 'login'?>" method="post" class="inline">

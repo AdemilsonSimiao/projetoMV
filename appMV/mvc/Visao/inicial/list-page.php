@@ -5,11 +5,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <link rel="stylesheet" href="<?= URL_CSS ?>list-page.css">
 </head>
-<body>
+<body class="bg-light-blue">
     <div class="list-content">
         <div class="filters">
-            <nav class="navbar navbar-light bg-primary">            
-                <div class="container-fluid">
+            <nav class="navbar navbar-light ">            
+                <div class="container-fluid bg-primary">
                     <div class="sort">
                         <h4>Pesquisar e ordenar:</h4>
                         <form class="d-flex" class="sort-form">
@@ -26,7 +26,7 @@
                                     <option value="ordenacao">Alfabeticamente</option>
                                 <?php endif ?>
                             </select>
-                            <button class="btn btn-outline-light" type="submit">Filtrar</button>
+                            <button class="btn btn-light" type="submit">Filtrar</button>
                         </form>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
         </div>
         <div class="config-buttons">
             <a href="<?=URL_RAIZ?>upload-file" ><button type="button" class="btn btn-primary" id="new-upload">Novo upload</button></a>
-            <a href="<?=URL_RAIZ?>uploads/meus-uploads"><button type="button" class="btn btn-info">Meus Uploads</button></a>
+            <a href="<?=URL_RAIZ?>uploads/meus-uploads"><button type="button" class="btn btn-light">Meus Uploads</button></a>
         </div>
         <?php if ($uploads) : ?>
             <?php foreach ($uploads as $upload) :?>
